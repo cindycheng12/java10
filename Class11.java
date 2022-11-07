@@ -53,3 +53,4 @@ public class Class11 {
         triangle.show();
     }
 }
+//(e)在找尋最大值時，不知道要歸在哪個位置去做函數
