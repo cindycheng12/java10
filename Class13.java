@@ -15,7 +15,7 @@ class Caaa   //super class
         System.out.println("Caaa_num2="+num2);
     }
 }
-class Cbbb extends Caaa{     //sub class (呼叫富類別的建構元)
+class Cbbb extends Caaa{     //sub class (呼叫父類別的建構元)
     int num1=10;
     int num2=20;
 	public void show() {
