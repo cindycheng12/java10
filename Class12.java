@@ -1,7 +1,6 @@
-class CShape{
+class CShape{   //父類別
 	private double area;
 	private String ID;
- 
 	public CShape(String id){
 		ID=id;
 	}
@@ -9,7 +8,7 @@ class CShape{
 		this.area=area;
 	}
  
-	public static void largest(CShape shape[]){
+	public static void largest(CShape shape[]){   //父類別的陣列變數
 		double max=0 ; int fg=0;
 		for(int i=0;i<shape.length;i++){
 			if(shape[i].area >max){
@@ -21,21 +20,21 @@ class CShape{
 	}
  
 }
-class CCircle extends CShape{
+class CCircle extends CShape{     //Circle子類別
 	public CCircle(double radius){
 		super("Circle");
 		setArea(radius*radius*3.14);
 	}
  
 }
-class CSquare extends CShape{
+class CSquare extends CShape        //Square子類別
 	public CSquare(double side){
 		super("Square");
 		setArea(side*side);
 	}
  
 }
-class CTriangle extends CShape{
+class CTriangle extends CShape{  	
 	public CTriangle (double weight,double height){
 		super("Triangle");
 		setArea((weight*height)/2);
