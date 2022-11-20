@@ -31,3 +31,4 @@ public class Class17 {
 
     }
 }
+//(e)//錯誤，改寫父類別的show()method
