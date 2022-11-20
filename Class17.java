@@ -26,9 +26,10 @@ class CColor extends Car{   //(b)
 }
 public class Class17 {
     public static void main(String[] args) {
-        CColor a= new CColor();
+        CColor a= new CColor(null, null);
         a.show();
 
     }
 }
+
 //(e)//錯誤，改寫父類別的show()method
