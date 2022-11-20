@@ -33,5 +33,6 @@ public static void main(String[] args)
     Caaa bb=new Cbbb(2);  
     bb.display();
 }
-    
+   
 }
+//(c)子類別的display()會被呼叫
